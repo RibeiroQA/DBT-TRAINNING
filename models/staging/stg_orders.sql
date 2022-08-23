@@ -9,6 +9,7 @@ o.ordercostprice,
 o.ordersellingprice,
 
 --from raw customer
+c.cusotmerid,
 c.cusotmername, 
 c.segment,
 c.country, 
@@ -16,6 +17,7 @@ c.country,
 --from raw prodructs
 
 p.category,
+p.procuctid,
 p.procuctname,
 p.subcategory
 
