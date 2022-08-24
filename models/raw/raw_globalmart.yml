@@ -21,3 +21,9 @@ models:
         tests:
           - unique
           - not_null
+  - name: raw_product
+    columns:
+      - name: procuctid
+        tests:
+          - unique
+          - not_null
